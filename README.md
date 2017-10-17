@@ -25,4 +25,4 @@ ATTENTION: Dans les fichiers
 
 Ensuite:
   - docker build -t bind .
-  - docker-compose -d up
+  - docker-compose up

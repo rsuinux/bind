@@ -15,3 +15,13 @@ Usage:
      - bind  => configuration de bind9
      - named => vos zones
  
+ATTENTION:
+  Dans les fichiers 
+    - docker-compose.yml
+    - creation.sh
+    - restore.sh
+  il faut modifier les items "exemple.org" par votre nom de fichier de zone (chez moi, il porte le nom de mon nom de domaine)
+
+Ensuite:
+  - docker build -t bind .
+  - docker-compose -d up
